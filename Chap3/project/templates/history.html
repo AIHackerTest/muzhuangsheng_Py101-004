@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<p>您的查询历史如下：</p>
+{% for i in history %}
+<li>{{ i }}</li>
+{% endfor %}
+{% endblock %}
